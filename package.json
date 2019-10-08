@@ -1,0 +1,19 @@
+{
+  "name": "bankomat",
+  "version": "1.0.0",
+  "description": "bankomat prototype",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pifls/bankomat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pifls/bankomat/issues"
+  },
+  "homepage": "https://github.com/pifls/bankomat#readme"
+}

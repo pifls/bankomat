@@ -96,3 +96,4 @@ Kwestie otwarte:
   - Czy wpłaty powyżej jakiejś kwoty, np. 10000 zł powinny być dodatkowo weryfikowane?
  
   - Czy dla bezpieczeństwa system nie powinien przyjmować banknotów o bardzo wysokim nominale, np. 500 zł?
+  

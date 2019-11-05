@@ -25,11 +25,14 @@ Scenariusz główny (ścieżka podstawowa):
 ---------------------------------------
 
   1. Klient wkłada kartę do bankomatu.
-  2. Klient wybiera język w którym będą wyświetlane komunikaty na ekranie.
-  3. Klient wprowadza pin i zatwierdza jego wprowadzenie.
-  4. Klient wciska przycisk odpowiadający funkcji sprawdzenia stanu konta.
-  5. Bankomat zwraca klientowi kartę.
-  6. Bankomat drukuje paragon z wartością reprezentującą stan konta.
+  2. Bankomat wyświetla ekran wyboru języka.
+  3. Klient wybiera język w którym będą wyświetlane komunikaty na ekranie.
+  4. Bankomat wyświetla ekran wprowadzania PIN'u.
+  5. Klient wprowadza PIN i zatwierdza jego wprowadzenie.
+  6. Bankomat potwierdza poprawność wprowadzonego PIN'u i wyświetla ekran główny. 
+  7. Klient wciska przycisk odpowiadający funkcji sprawdzenia stanu konta.
+  8. Bankomat zwraca klientowi kartę.
+  9. Bankomat drukuje paragon z wartością reprezentującą stan konta.
 
 Rozszerzenia (ścieżki alternatywne):
 ------------------------------------
@@ -37,28 +40,24 @@ Rozszerzenia (ścieżki alternatywne):
   1. System informuje klienta o nieaktywności wprowadzonej karty.
   2. System prosi o wprowadzenie innej karty.
 
- 3a. Został wprowadzony niepoprawny PIN:
+ 5a. Został wprowadzony niepoprawny PIN:
   1. System informuje klienta o niepoprawności wprowadzonego pinu
   2. System prosi klienta o ponowne wpisanie kodu PIN.
 
- 4a. Klient wcisnął zły przycisk który przekierował go do innego, niewłaściwego okna:
+ 7a. Klient wcisnął zły przycisk który przekierował go do innego, niewłaściwego okna:
   1. Klient klika przycisk powrtodu do poprzedniego ekranu
 
- 6a. Paragon wydrukował się niepoprawnie:
+ 9a. Paragon wydrukował się niepoprawnie:
   1. Klient przechodzi do kroku pierwszego scenariusza głównego.
 
 Wymagania specjalne:
 --------------------
 
   - Niezbędny ekran z przyciskami z boku lub dotykowy.
-
-  - Bankomat posiada wejście na kartę klienta.
-
-  - Bankomat posiada połącznie z bazą danych banku.
   
   - Możliwość interfejsu wielojęzycznego.
   
-  - Wielkość czcionki uniwersalna, dostosowana również do osób starszych. 
+  - Wielkość czcionki dostosowana również do osób starszych. 
 
 Wymagania technologiczne oraz ograniczenia na wprowadzane dane:
 ---------------------------------------------------------------

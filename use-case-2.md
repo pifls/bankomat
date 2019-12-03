@@ -52,11 +52,17 @@ Rozszerzenia (ścieżki alternatywne):
  a.3. 
 
  6.a. Gotówka jest w złym stanie technicznym
+ 
   6.a.1. System informuje o nieodpowiednim stanie gotówki.
+  
     6.a.1.1 Klient wybiera opcję ponownej wpłaty.
+	
       6.a.1.1.1 Klient wpłaca ponownie gotówkę.
+	  
       6.a.1.1.2. System ponownie informuje o złym stanie gotówki.
+	  
       6.a.1.1.3. Klient wraca do punktu 6.a.1.1.1.
+	  
     6.a.1.2. Klient odbiera gotówkę, a transakcja jest zakończona.
     
  7.a Klient postanawia wpłacić dodatkową kwotę

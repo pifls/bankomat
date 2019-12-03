@@ -1,4 +1,4 @@
-Use Case 2: Wypłata pieniędzy
+Use Case 1: Wypłata pieniędzy
 =====================
  
 **Aktor podstawowy:** Klient

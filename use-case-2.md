@@ -1,4 +1,4 @@
-Use Case 1: Wpłata gotówki
+Use Case 2: Wpłata gotówki
 =====================
 
 **Aktor podstawowy:** Klient

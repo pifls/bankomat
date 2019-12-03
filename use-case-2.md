@@ -1,4 +1,4 @@
-Use Case 2: Wpłata gotówki
+Use Case 1: Wpłata gotówki
 =====================
 
 **Aktor podstawowy:** Klient
@@ -36,7 +36,7 @@ Scenariusz główny (ścieżka podstawowa):
   5. Bankomat informuje Klienta o wymaganiach technicznych procesu (m.in. o wymaganym stanie technicznym banknotów).
   6. Klient w otworze umieszcza odpowiednią ilość gotówki.
   7. Klient zatwierdza pokazaną na ekranie wartość, równą wartości wpłaconej kwoty.
-  8. Klient odbiera potwierdzenie transakcji.
+  8. Odbiera potwierdzenie transakcji.
 
 Rozszerzenia (ścieżki alternatywne):
 ------------------------------------
@@ -96,4 +96,3 @@ Kwestie otwarte:
   - Czy wpłaty powyżej jakiejś kwoty, np. 10000 zł powinny być dodatkowo weryfikowane?
  
   - Czy dla bezpieczeństwa system nie powinien przyjmować banknotów o bardzo wysokim nominale, np. 500 zł?
-  

@@ -52,22 +52,22 @@ Rozszerzenia (ścieżki alternatywne):
  a.3. 
 
  6.a. Gotówka jest w złym stanie technicznym
- 6.a.1. System informuje o nieodpowiednim stanie gotówki.
+  6.a.1. System informuje o nieodpowiednim stanie gotówki.
     6.a.1.1 Klient wybiera opcję ponownej wpłaty.
-        6.a.1.1.1 Klient wpłaca ponownie gotówkę.
-        6.a.1.1.2. System ponownie informuje o złym stanie gotówki.
-        6.a.1.1.3. Klient wraca do punktu 6.a.1.1.1.
+      6.a.1.1.1 Klient wpłaca ponownie gotówkę.
+      6.a.1.1.2. System ponownie informuje o złym stanie gotówki.
+      6.a.1.1.3. Klient wraca do punktu 6.a.1.1.1.
     6.a.1.2. Klient odbiera gotówkę, a transakcja jest zakończona.
     
-7.a Klient postanawia wpłacić dodatkową kwotę
-7.a.1 Klient zamiast zaakceptować widniejącą na ekranie kwotę, wybiera opcję "Dodaj".
-7.a.2 Klient ponownie wkłada gotówkę do wpłatomatu.
-7.a.3 System ponownie analizuje podaną kwotę.
-7.a.3.1. Gdy gotówka jest w złym stanie, system przenosi Klienta do kroku 6.
-7.a.3.2 Gdy gotówka jest w dobrym stanie, proces przebiega dalej bez zakłóceń.
+ 7.a Klient postanawia wpłacić dodatkową kwotę
+ 7.a.1 Klient zamiast zaakceptować widniejącą na ekranie kwotę, wybiera opcję "Dodaj".
+ 7.a.2 Klient ponownie wkłada gotówkę do wpłatomatu.
+ 7.a.3 System ponownie analizuje podaną kwotę.
+ 7.a.3.1. Gdy gotówka jest w złym stanie, system przenosi Klienta do kroku 6.
+ 7.a.3.2 Gdy gotówka jest w dobrym stanie, proces przebiega dalej bez zakłóceń.
 
-7.b. Klient rezygnuje z operacji.
-7.b.1. Klient rezygnuje z zakupu i wybiera opcję "Anuluj". Automat zwraca podaną gotówkę i powraca do stanu początkowego.
+ 7.b. Klient rezygnuje z operacji.
+ 7.b.1. Klient rezygnuje z zakupu i wybiera opcję "Anuluj". Automat zwraca podaną gotówkę i powraca do stanu początkowego.
     
 
 
